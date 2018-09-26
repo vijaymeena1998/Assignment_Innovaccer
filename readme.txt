@@ -1,10 +1,5 @@
 ORGANISING DESKTOP:
-		   The program first fetches system-drive-name and username of the running system. Then it accesses all of the files present on user desktop
- using previous data collected. Throughout the process it checks for file extension and creates a directory (if not present) in documents folder. Then it moves all 
-of the files (excluding shortcut and exe files) to corresponding directories and if some files are already present then it replaces them.
+		   The program first fetches system-drive-name and username of the running system. Then it accesses all of the files present on user desktop using previous data collected. Throughout the process it checks for file extension and creates a directory (if not present) in documents folder. Then it moves all of the files (excluding shortcut and exe files) to corresponding directories and if some files are already present then it replaces them.
 
 SEARCHING BIGGEST 10 FILES:
-			   The program first retrieves all drive names and username. Then program runs through ìc:\usersî and all other drives( in case of Ubuntu it 
-runs through ì/home/î and all mounted partitions available inside ì/media/î ). While walking throughout directories it stores initial 10 files inside a min-heap 
-after that it checks the size of every iterating file with size of root-file( of heap) and if the iterating file size is larger then it stores the file inside 
-heap(and removes smallest file hence keeping size of heap constant).	
+			   The program first retrieves all drive names and username. Then program runs through ‚Äúc:\users‚Äù and all other drives( in case of Ubuntu it runs through ‚Äú/home/‚Äù and all mounted partitions available inside ‚Äú/media/‚Äù ). While walking throughout directories it stores initial 10 files inside a min-heap after that it checks the size of every iterating file with size of root-file( of heap) and if the iterating file size is larger then it stores the file inside heap(and removes smallest file hence keeping size of heap constant).	
